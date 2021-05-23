@@ -1,6 +1,4 @@
-JUNIOR DEVELOPED # I'm looking a job
-HAROLD GAMBOA
-+57 320 471 3519
+JUNIOR DEVELOPED #
 
 This is a game make with only python and tkinter.
 
