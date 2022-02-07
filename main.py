@@ -1,9 +1,10 @@
 # -*- coding:utf-8 -*-
 '''
-I'm Harold Esteban Gamboa Rodriguez  +57 320 471 3519
+I'm HaroldEstn
+you can find me in LinkedIn https://www.linkedin.com/in/haroldestn/
 In this game You have to mach up the cards.
 This game is not totaly mine, I have added new things and removed others for the original code. 
-I have used the code form 3 people and I have comined it all in this game.
+I have used the code form 3 people and I have combine it all in this game.
 I thank the following people:
 -Cronometro(stopwatch): RODY FERNANDEZ https://oimbaite.com/crear-cronometro-progresivo-de-24-horas-con-python-y-tkinter/.
 -Memorama(game logic): Sprogramacion https://www.youtube.com/watch?v=BfhHWLQx5Gs&ab_channel=SProgramacion.
@@ -52,7 +53,7 @@ class Juego:
         '''
         Show all labels in the window
         '''
-        self.nombre.set('Kimiri <33')
+        self.nombre.set('Pepito Perez')
         Label(self.ventana, text="WELCOME TO THE MEMORY GAME",
               bg="blue4",
               fg="red",
@@ -90,7 +91,7 @@ class Juego:
         '''
         i = 0
         contador = 0
-        self.filas = 4 
+        self.filas = 4
         self.columnas = 4 # Change for 6 to have more cards
         if self.filas * self.columnas > 24:
             self.filas = 4
@@ -109,7 +110,7 @@ class Juego:
 
     def revolver(self):
         '''
-        This create the arrays with the values and mix it randomly
+        This create the lists with the values and mix it randomly
         '''
         i = 1
         parejas = int((self.filas * self.columnas)/2)
@@ -183,3 +184,4 @@ class Juego:
 if __name__ == '__main__':
     p1 = Process(name='p1', target=Juego)
     p1.start()
+

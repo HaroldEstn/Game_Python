@@ -91,3 +91,4 @@ class Puntajes:
             buscar_registro(self.nombre, self.tiempo, self.movimientos)
         else:
             print('Don´t worry you score is not save')
+

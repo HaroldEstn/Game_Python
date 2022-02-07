@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-If the file is't exists create puntajes.csv
+If the file isn't exists create puntajes.csv
 if the file exists save the data
 '''
 try:
@@ -36,3 +36,4 @@ def buscar_registro(nombre, tiempo, movimientos):
     if not archivo.exists():
         validar_archivo()
     guardar_registro(nombre, tiempo, movimientos)
+
